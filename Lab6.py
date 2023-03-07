@@ -3,6 +3,7 @@ def menu():
 
 
 def encode(password):
+    # Javier Abadia
     encoded_password = ""
     for number in password:
         if int(number) >= 7:
