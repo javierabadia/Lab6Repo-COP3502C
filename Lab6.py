@@ -12,6 +12,14 @@ def encode(password):
             encoded_password += str(int(number) + 3)
     return encoded_password
 
+def decode(encoded_password):
+    # savannah Ogletree
+    password = ""
+    for num in encoded_password:
+        num = int(num)
+        password += str(num - 3)
+    return password
+
 
 def main():
     option = 0
